@@ -24,7 +24,7 @@ async fn main() {
     };
 
     let firebase = Firebase::new("https://rust-92223-default-rtdb.firebaseio.com/").unwrap();
-    // println!("{:?}", firebase);
+    println!("{:?}", firebase);
     // let firebase = Firebase::new("https://console.firebase.google.com/u/0/project/rust-92223/database/rust-92223-default-rtdb/data/~2F").unwrap();
 
     let response = set_user(&firebase, &user).await;
