@@ -1,0 +1,9 @@
+C:\Users\USER\OneDrive\Desktop\MyCodes\Team-Project\Rust\rust-firebase\target\debug\deps\libeventsource_client-4c9d2c6966399b0b.rmeta: C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\client.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\config.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\error.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\event_parser.rs
+
+C:\Users\USER\OneDrive\Desktop\MyCodes\Team-Project\Rust\rust-firebase\target\debug\deps\eventsource_client-4c9d2c6966399b0b.d: C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\client.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\config.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\error.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\event_parser.rs
+
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\lib.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\client.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\config.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\error.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\eventsource-client-0.10.2\src\event_parser.rs:

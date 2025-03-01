@@ -23,7 +23,9 @@ async fn main() {
         email: "selfmanademola@gmail.com".to_string(),
     };
 
-    let firebase = Firebase::new("https://console.firebase.google.com/u/0/project/rust-92223/database/rust-92223-default-rtdb/data/~2F").unwrap();
+    let firebase = Firebase::new("https://rust-92223-default-rtdb.firebaseio.com/").unwrap();
+    // println!("{:?}", firebase);
+    // let firebase = Firebase::new("https://console.firebase.google.com/u/0/project/rust-92223/database/rust-92223-default-rtdb/data/~2F").unwrap();
 
     let response = set_user(&firebase, &user).await;
 
@@ -34,38 +36,39 @@ async fn main() {
     println!("{:?}", users);
 
 
-    user.email = "updatedmail@gmail.com".to_sting();
-    let updated _user = update_user(&firebase, response.name, &user).await;
-    println!("{:?}", update_user);
+    user.email = "updatedmail@gmail.com".to_string();
+    let updated_user = update_user(&firebase, &response.name, &user).await;
+    println!("{:?}", updated_user);
 
     delete_user(&firebase, &response.name).await;
     println!("User deleted!");
 
 }
 
-async fn set_user(firebase_client: &Firebase, user: &User) -> Response {
+async fn set_user(firebase_client: &Firebase, user: &User) -> Response{
     let firebase = firebase_client.at("users");
     let _users = firebase.set::<User>(&user).await;
+    println!("{:?}", _users);
     return string_to_response(&_users.unwrap().data);
 }
 
-async fn get_users(firebase_client: &Firebase) -> HashMap<String, Users> {
+async fn get_users(firebase_client: &Firebase) -> HashMap<String, User> {
     let firebase = firebase_client.at("users");
     let users = firebase.get::<HashMap<String, User>>().await;
-    println("{:?}", users);
+    println!("{:?}", users);
     return users.unwrap();
 }
 
 async fn get_user(firebase_client: &Firebase, id: &String) -> User {
     let firebase = firebase_client.at("users").at(&id);
     let user = firebase.get::<User>().await;
+    println!("{:?}", user);
     return user.unwrap();
-    println("{:?}", user);
 }
 
 async fn update_user(firebase_client: &Firebase, id: &String, user: &User) -> User {
     let firebase = firebase_client.at("users").at(&id);
-    let _user = firebase.update::<User>.await;
+    let _user = firebase.update::<User>(&user).await;
     return string_to_user(&_user.unwrap().data);
 }
 

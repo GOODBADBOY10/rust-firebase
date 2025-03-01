@@ -1,0 +1,10 @@
+C:\Users\USER\OneDrive\Desktop\MyCodes\Team-Project\Rust\rust-firebase\target\debug\deps\libfirebase_rs-c0cba4ba4a52959f.rmeta: C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src/lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\constants.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\errors.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\params.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\sse.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\utils.rs
+
+C:\Users\USER\OneDrive\Desktop\MyCodes\Team-Project\Rust\rust-firebase\target\debug\deps\firebase_rs-c0cba4ba4a52959f.d: C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src/lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\constants.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\errors.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\params.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\sse.rs C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\utils.rs
+
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src/lib.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\constants.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\errors.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\params.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\sse.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-6f17d22bba15001f\firebase-rs-2.2.0\src\utils.rs:
